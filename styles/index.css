@@ -1,0 +1,10 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font-manrope.css);
+@import url(../vendor/fonts/font-montserrat.css);
+@import url(font-styles.css);
+
+@import url(../versions/desktop.css);
+@import url(../versions/960-1200px.css);
+@import url(../versions/640-960px.css);
+@import url(../versions/480-640px.css);
+@import url(../versions/320-480px.css);

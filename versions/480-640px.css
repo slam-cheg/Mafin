@@ -1,0 +1,57 @@
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    /* --- Неизменные стили --- */
+    .post__heading {
+        max-width: 400px;
+        margin: 75px auto 0 auto;
+    }
+    .post__title {
+        font-size: 24px;
+        line-height: 1.2;
+        max-width: 400px;
+    }
+    .post__title::after {
+        height: 23px;
+        line-height: 23px;
+        top: 282px;
+    }
+    .post__image {
+        width: 100%;
+        max-width: 460px;
+        margin: 0 auto 30px auto;
+    }
+    .post__text {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 auto 30px auto;
+        max-width: 400px;
+    }
+    .post__subtitle {
+        font-size: 18px;
+        line-height: 33px;
+        max-width: 400px;
+        margin: 0 auto 16px auto;
+    }
+    .post__paragraph {
+        max-width: 460px;
+    }
+    .post__image_column {
+        margin: 0 auto 0 auto;
+    }
+    .post__list {
+        max-width: 400px;
+    }
+    /* Изменяемые стили */
+    .post__image_mob {
+        display: inherit;
+    }
+    .post__image_desktop {
+        display: none;
+    }
+    .post__grid {
+        max-width: 460px;
+    }
+    .post__excretion {
+        max-width: 400px;
+        margin: 0 auto 30px auto;
+    }
+}

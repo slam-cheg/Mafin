@@ -1,0 +1,159 @@
+/* --- Неизменные стили --- */
+
+.t-records ul {
+    margin: 0;
+}
+
+.post__heading {
+    font-family: 'Montserrat';
+    max-width: 700px;
+    margin: 90px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading__ico {
+    padding-right: 10px;
+    width: 20px;
+}
+
+.heading__link {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.heading__date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+.post__title {
+    font-family: Manrope;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 1.4;
+    margin: 8px auto 30px auto;
+    max-width: 700px;
+}
+
+.post__background {
+    max-width: 100%;
+    height: 235px;
+    margin-bottom: 40px;
+    background-image: url(https://static.tildacdn.com/tild3263-6337-4230-b262-303165643966/---1520-470.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    border-radius: 15px;
+}
+
+.post__image {
+    display: inherit;
+    width: 100%;
+    max-width: 760px;
+    border-radius: 15px;
+    margin: 0 auto 40px auto;
+}
+
+.post__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto 12px auto;
+    max-width: 700px;
+}
+
+.post__text:last-of-type {
+    margin: 0 auto 40px auto;
+}
+
+.post__subtitle {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 700px;
+    margin: 0 auto 16px auto;
+}
+
+.post__list {
+    max-width: 700px;
+    margin: 0 auto 40px auto !important;
+}
+
+.post__list-item {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.post__paragraph {
+    max-width: 760px;
+    margin: auto;
+    position: relative;
+}
+
+.post__title::after {
+    width: 80px;
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    height: 18px;
+    top: 307px;
+    left: 30px;
+    letter-spacing: .7px;
+    font-weight: bold;
+    font-family: 'Manrope';
+    color: #fff;
+    font-size: 12px;
+    transition: .3s;
+    transform: rotate(356deg);
+}
+
+.post__text_bold {
+    font-weight: bold;
+}
+
+/* Изменяемые стили */
+
+.post__title::after {
+    background-color: #ff7a00;
+    content: 'гайды';
+}
+
+.post__image_mob {
+    display: none;
+}
+
+.post__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 760px;
+    margin: auto;
+    column-gap: 30px;
+}
+
+.post__image_column {
+    margin: 0 auto 40px auto;
+}
+
+.post__text_excretion {
+    margin: 0 !important;
+}
+
+.post__excretion {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    display: grid;
+    grid-template-columns: 24px auto;
+    column-gap: 20px;
+}
+
+.excretion__image {
+    max-width: 100%;
+}
