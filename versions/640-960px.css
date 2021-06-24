@@ -2,6 +2,7 @@
     /* --- Неизменные стили --- */
     .post__heading {
         max-width: 560px;
+        margin: 125px auto 0 auto;
     }
     .post__title {
         font-size: 24px;
@@ -13,18 +14,13 @@
         height: 235px;
         margin-bottom: 30px;
     }
-    .post__title::after {
-        height: 23px;
-        line-height: 23px;
-        top: 270px;
-    }
     .post__image {
         width: 100%;
         max-width: 620px;
         margin: 0 auto 30px auto;
     }
     .post__image_column {
-        margin: 0 auto 30px auto;
+        margin: 0 auto 0 auto;
     }
     .post__text {
         font-size: 14px;
@@ -50,14 +46,28 @@
     .post__grid {
         max-width: 620px;
     }
-    .post__excretion {
-        max-width: 560px;
-        margin: 0 auto 40px auto;
-        display: grid;
-        grid-template-columns: 24px auto;
-        column-gap: 20px;
+    .post__card {
+        max-width: 620px;
+        margin: 0 auto 30px auto;
+        padding: 30px;
     }
-    .excretion__image {
-        max-width: 100%;
+    .card__text {
+        font-size: 14px;
+    }
+
+    .post__text_bold_card {
+        font-size: 18px;
+    }
+
+    .post__quotes {
+        justify-content: center;
+    }
+
+    .post__image_desktop {
+        display: inherit;
+    }
+
+    .post__image_mob {
+        display: none;
     }
 }

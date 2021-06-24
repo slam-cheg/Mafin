@@ -6,14 +6,11 @@
     .post__title {
         max-width: 720px;
     }
-    .post__title::after {
-        top: 310px;
-    }
     .post__image {
         max-width: 780px;
     }
     .post__image_column {
-        margin: 0 auto 40px auto;
+        margin: 0 auto 0 auto;
     }
     .post__text {
         max-width: 720px;
@@ -36,13 +33,7 @@
         margin: auto;
     }
     /* Изменяемые стили */
-    .post__text_excretion {
-        margin: 0;
-    }
-    .post__excretion {
-        max-width: 720px;
-    }
-    .excretion__image {
-        max-width: 100%;
+    .post__card {
+        max-width: 780px;
     }
 }

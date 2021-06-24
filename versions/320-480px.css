@@ -2,7 +2,7 @@
     /* --- Неизменные стили --- */
     .post__heading {
         max-width: 100%;
-        margin: 75px 30px 0 30px;
+        margin: 125px auto 0 auto;
     }
     .post__title {
         font-size: 24px;
@@ -12,23 +12,17 @@
     }
     .post__background {
         height: 151px;
-        margin: 0 20px 20px;
+        margin: 0 0 20px;
     }
-    .post__title::after {
-        height: 23px;
-        line-height: 23px;
-        top: 190px;
-        left: 30px;
+    .post__tag {
+        bottom: 21px;
+        left: 20px;
     }
     .post__image {
         display: inherit;
-        max-width: calc(100% - 40px);
+        max-width: 100%;
         border-radius: 15px;
         margin: 0 auto 20px auto;
-    }
-    .post__image_column {
-        margin: 0 auto 20px auto;
-        width: 50%;
     }
     .post__text {
         line-height: 1.3;
@@ -56,26 +50,96 @@
     .post__list-item {
         font-size: 14px;
     }
-    /* Изменяемые стили */
+    /* ----- Изменяемые стили ----- */
     .post__image_mob {
         display: inherit;
     }
     .post__image_desktop {
         display: none;
     }
+
+    .post__image_column {
+        margin: 0 auto;
+        max-width: 120px !important;
+    }
+
     .post__grid {
         grid-template-columns: auto;
         margin: 0;
         row-gap: 20px;
     }
-    .post__excretion {
+    .post__card {
         max-width: 100%;
-        margin: 0 20px 20px 20px;
+        background-color: #eef1f6;
+        border-radius: 15px;
+        margin: 0 auto 20px auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .post__card_columns {
         display: grid;
-        grid-template-columns: 24px auto;
-        column-gap: 20px;
+        grid-template-columns: auto;
+        column-gap: 0;
+        row-gap: 20px;
     }
-    .excretion__image {
-        max-width: 100%;
+
+    .card__text {
+        font-size: 14px;
     }
+
+    .post__text_bold_card {
+        font-size: 18px;
+    }
+
+    .post__quote {
+        margin-right: 3px;
+        width: 10px;
+    }
+
+    .post__text_quote {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .post__text_quote:last-of-type {
+        margin-bottom: 0;
+
+    }
+
+    .card__title {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .post__table {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .table__text {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .table__text:last-of-type {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .card__title_xs {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .post__image_desktop {
+        display: none;
+    }
+
+    .post__image_mob {
+        display: inherit;
+    }
+
 }
