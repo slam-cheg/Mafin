@@ -20,12 +20,28 @@
 .heading__link {
     font-size: 12px;
     font-weight: 600;
+    transition: .2s;
+}
+
+.heading__link:hover{
+    opacity: .6;
+    transition: .2s;
 }
 
 .heading__date {
     font-size: 12px;
     font-weight: 400;
     color: #7d7d7d;
+}
+
+.post__link {
+    color: #ff0550 !important;
+    transition: .2s;
+}
+
+.post__link:hover {
+    opacity: .6;
+    transition: .2s;
 }
 
 .post__title {
@@ -42,7 +58,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild6665-3463-4238-b837-353866623362/1520_470_2.jpg);
+    background-image: url(https://static.tildacdn.com/tild6663-3036-4432-a362-643438313934/1520-470_--.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -57,6 +73,10 @@
     margin: 0 auto 40px auto;
 }
 
+.post__paragraph_image {
+    margin-bottom: 40px !important;
+}
+
 .post__text {
     font-family: Montserrat;
     font-style: normal;
@@ -69,6 +89,10 @@
 
 .post__text:last-of-type {
     margin: 0 auto 40px auto;
+}
+
+.post__text_exclamation {
+    margin-bottom: 12px !important;
 }
 
 .post__subtitle {
@@ -86,11 +110,21 @@
     margin: 0 auto 40px auto !important;
 }
 
+.post__list_card {
+    max-width: 700px;
+    margin: 0 auto !important;
+    padding-left: 20px;
+}
+
 .post__list-item {
     font-family: 'Montserrat';
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 16px;
+}
+
+.post__list-item:last-of-type {
+    margin-bottom: 0;
 }
 
 .post__paragraph {
@@ -119,6 +153,26 @@
 
 .post__text_bold {
     font-weight: 600;
+}
+
+.post__exclamation {
+    width: 24px;
+}
+
+.post__exclamation {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.post__exclamation_wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.post__paragraph_exclamation {
+    margin-bottom: 40px;
 }
 
 /* Изменяемые стили */
