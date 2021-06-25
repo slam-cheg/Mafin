@@ -21,6 +21,7 @@
     font-size: 12px;
     font-weight: 600;
     transition: .2s;
+    color: #ff0550 !important;
 }
 
 .heading__link:hover{
@@ -88,7 +89,7 @@
 }
 
 .post__text:last-of-type {
-    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto !important;
 }
 
 .post__text_exclamation {
@@ -152,7 +153,7 @@
 }
 
 .post__text_bold {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .post__exclamation {

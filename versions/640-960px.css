@@ -25,8 +25,11 @@
     .post__text {
         font-size: 14px;
         line-height: 1.5;
-        margin: 0 auto 30px auto;
+        margin: 0 auto 12px auto;
         max-width: 560px;
+    }
+    .post__text:last-of-type {
+        margin: 0 auto 30px auto !important;
     }
     .post__subtitle {
         font-size: 18px;
@@ -54,20 +57,23 @@
     .card__text {
         font-size: 14px;
     }
-
     .post__text_bold_card {
         font-size: 18px;
     }
-
     .post__quotes {
         justify-content: center;
     }
-
     .post__image_desktop {
         display: inherit;
     }
-
     .post__image_mob {
         display: none;
+    }
+    .post__exclamation_wrapper {
+        max-width: 560px;
+    }
+
+    .post__paragraph_image {
+        margin-bottom: 30px !important;
     }
 }

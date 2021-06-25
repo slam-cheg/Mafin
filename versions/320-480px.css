@@ -2,7 +2,7 @@
     /* --- Неизменные стили --- */
     .post__heading {
         max-width: 100%;
-        margin: 125px auto 0 auto;
+        margin: 125px 30px 0 30px;
     }
     .post__title {
         font-size: 24px;
@@ -140,6 +140,22 @@
 
     .post__image_mob {
         display: inherit;
+    }
+
+    .post__exclamation_wrapper {
+        max-width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .post__text_exclamation {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .post__paragraph_image {
+        margin-bottom: 20px !important;
     }
 
 }
