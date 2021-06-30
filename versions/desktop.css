@@ -59,7 +59,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild6435-3036-4631-b865-373835353964/_1520_470.jpg);
+    background-image: url(https://static.tildacdn.com/tild6237-3236-4930-a134-356666373330/----1520-470.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -272,4 +272,8 @@
 
 .post__image_mob {
     display: none;
+}
+
+.post__text_std-margin {
+    margin-bottom: 12px !important;
 }

@@ -29,7 +29,7 @@
         max-width: 560px;
     }
     .post__text:last-of-type {
-        margin: 0 auto 30px auto !important;
+        margin: 0 auto 30px auto;
     }
     .post__subtitle {
         font-size: 18px;
