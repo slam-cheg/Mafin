@@ -86,4 +86,8 @@
     .post__text_exclamation {
         margin-bottom: 30px !important;
     }
+
+    .video {
+        height: 259px;
+    }
 }

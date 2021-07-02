@@ -39,4 +39,8 @@
     .post__exclamation_wrapper {
         max-width: 720px;
     }
+
+    .video {
+        height: 440px;
+    }
 }
