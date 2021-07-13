@@ -39,4 +39,15 @@
     .post__exclamation_wrapper {
         max-width: 720px;
     }
+
+    .post__paragraph_columns {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        max-width: 780px;
+        margin-bottom: 40px;
+    }
+    
+    .post__image_mini {
+        width: 50%;
+    }
 }

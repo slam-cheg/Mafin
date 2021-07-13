@@ -39,6 +39,12 @@
     .post__paragraph {
         max-width: 620px;
     }
+    .post__paragraph_columns {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        max-width: 620px;
+        margin-bottom: 30px;
+    }
     .post__list {
         max-width: 560px;
     }
@@ -54,9 +60,15 @@
         margin: 0 auto 30px auto;
         padding: 30px;
     }
+
     .card__text {
         font-size: 14px;
     }
+
+    .card__text:last-of-type {
+        margin: 0 auto 0 auto;
+    }
+
     .post__text_bold_card {
         font-size: 18px;
     }
@@ -72,8 +84,10 @@
     .post__exclamation_wrapper {
         max-width: 560px;
     }
-
     .post__paragraph_image {
         margin-bottom: 30px !important;
+    }
+    .post__image_mini {
+        width: 50%;
     }
 }

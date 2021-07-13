@@ -47,6 +47,16 @@
     .post__paragraph {
         max-width: 100%;
     }
+
+    .post__paragraph_columns {
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
     .post__list-item {
         font-size: 14px;
     }
@@ -57,12 +67,10 @@
     .post__image_desktop {
         display: none;
     }
-
     .post__image_column {
         margin: 0 auto;
-        max-width: 120px !important;
+        max-width: 100% !important;
     }
-
     .post__grid {
         grid-template-columns: auto;
         margin: 0;
@@ -76,92 +84,117 @@
         padding: 20px;
         box-sizing: border-box;
     }
-
     .post__card_columns {
         display: grid;
-        grid-template-columns: auto;
-        column-gap: 0;
-        row-gap: 20px;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+        column-gap: 30px;
+        margin-bottom: 30px;
     }
-
     .card__text {
         font-size: 14px;
         margin: 0 10px 16px 10px;
     }
-
     .card__text:last-of-type {
         font-size: 14px;
         margin: 0 10px 0 10px;
     }
-
     .post__text_bold_card {
         font-size: 18px;
     }
-
     .post__quote {
         margin-right: 3px;
         width: 10px;
     }
-
     .post__text_quote {
         margin-left: 10px !important;
         margin-right: 10px !important;
     }
-
     .post__text_quote:last-of-type {
         margin-bottom: 0;
-
     }
-
     .card__title {
         margin-left: 10px !important;
         margin-right: 10px !important;
     }
-
     .post__table {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
-
     .table__text {
         margin-left: 10px;
         margin-right: 10px;
         font-size: 10px;
         margin-bottom: 0px;
     }
-
     .table__text:last-of-type {
         margin-left: 10px !important;
         margin-right: 10px !important;
     }
-
     .card__title_xs {
         font-size: 16px;
         margin-bottom: 10px;
     }
-
     .post__image_desktop {
         display: none;
     }
-
     .post__image_mob {
         display: inherit;
     }
-
     .post__exclamation_wrapper {
         max-width: 100%;
         margin-left: 30px;
         margin-right: 30px;
     }
-
     .post__text_exclamation {
         margin-left: 0 !important;
         margin-right: 0 !important;
         margin-bottom: 20px !important;
     }
-
     .post__paragraph_image {
         margin-bottom: 20px !important;
     }
+<<<<<<< Updated upstream
 
+=======
+    .shape__image {
+        height: 300px;
+        margin-bottom: 0;
+        margin: 0 auto;
+        background-position: center;
+        width: 100%;
+    }
+    .post__card_two-columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .post__card_column {
+        border-right: none;
+        padding-right: 0;
+    }
+    .post__card_table {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 30px;
+    }
+    .card__text_border_640 {
+        border-bottom: 1px solid #d7dae0;
+        padding-bottom: 15px;
+    }
+    .card__text_zero {
+        margin: 0;
+        align-self: flex-end;
+    }
+    .card__text_zero:last-of-type {
+        margin: 0 !important;
+    }
+    .mobile {
+        display: block;
+    }
+
+    .post__image_mini {
+        width: 60%;
+    }
+>>>>>>> Stashed changes
 }
