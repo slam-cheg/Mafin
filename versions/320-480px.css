@@ -164,4 +164,48 @@
         margin-bottom: 20px !important;
     }
 
+<<<<<<< Updated upstream
+=======
+    .shape__image {
+        height: 150px;
+        margin-bottom: 0;
+        margin: 0 auto;
+        background-position: center;
+    }
+
+    .post__card_two-columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .post__card_column {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .post__card_table {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 30px;
+    }
+
+    .card__text_border_640 {
+        border-bottom: 1px solid #d7dae0;
+        padding-bottom: 15px;
+    }
+
+    .card__text_zero {
+        margin: 0;
+        align-self: flex-end;
+    }
+    
+    .card__text_zero:last-of-type {
+        margin: 0 !important;
+    }
+
+    .mobile {
+        display: block;
+    }
+>>>>>>> Stashed changes
 }
