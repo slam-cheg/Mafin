@@ -1,4 +1,9 @@
 /* --- Неизменные стили --- */
+* {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+}
 
 .t-records ul {
     margin: 0;
@@ -59,7 +64,11 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
+<<<<<<< Updated upstream
     background-image: url(https://static.tildacdn.com/tild6237-3236-4930-a134-356666373330/----1520-470.jpg);
+=======
+    background-image: url(https://static.tildacdn.com/tild3563-6463-4361-b534-303765623834/gap_.jpg);
+>>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -74,6 +83,25 @@
     margin: 0 auto 40px auto;
 }
 
+<<<<<<< Updated upstream
+=======
+.shape__image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+.shape__image_left {
+    background-image: url(https://static.tildacdn.com/tild3538-3238-4665-b864-323735613035/icon1_1.jpg);
+}
+
+.shape__image_right {
+    background-image: url(https://static.tildacdn.com/tild3663-3532-4361-b733-616563613966/icon2_1.jpg);
+}
+
+>>>>>>> Stashed changes
 .post__paragraph_image {
     margin-bottom: 40px !important;
 }
@@ -198,10 +226,37 @@
     margin-bottom: 30px;
 }
 
+<<<<<<< Updated upstream
+=======
+.post__card_column {
+    border-right: 1px solid #d7dae0;
+    padding-right: 15px;
+}
+
+.post__card_column:last-of-type {
+    border: none;
+    padding-right: 0;
+}
+
+.post__card_two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.post__card_table {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+}
+
+/*
+>>>>>>> Stashed changes
 .post__card_columns:last-of-type {
     margin-bottom: 0;
 }
-
+*/
 .card__title {
     font-family: Manrope;
     font-style: normal;
@@ -221,6 +276,21 @@
     max-width: 700px;
 }
 
+<<<<<<< Updated upstream
+=======
+.card__text_zero {
+    margin: 0;
+}
+
+.card__text_zero:last-of-type {
+    margin: 0 !important;
+}
+
+.card__text_center {
+    align-self: center;
+}
+
+>>>>>>> Stashed changes
 .card__text:last-of-type {
     margin: 0 auto 0 auto;
 }
