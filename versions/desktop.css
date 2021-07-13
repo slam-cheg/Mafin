@@ -59,7 +59,11 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
+<<<<<<< Updated upstream
     background-image: url(https://static.tildacdn.com/tild6237-3236-4930-a134-356666373330/----1520-470.jpg);
+=======
+    background-image: url(https://static.tildacdn.com/tild6139-3037-4635-b765-646466626330/-.jpg);
+>>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -74,6 +78,25 @@
     margin: 0 auto 40px auto;
 }
 
+<<<<<<< Updated upstream
+=======
+.shape__image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+.shape__image_left {
+    background-image: url();
+}
+
+.shape__image_right {
+    background-image: url();
+}
+
+>>>>>>> Stashed changes
 .post__paragraph_image {
     margin-bottom: 40px !important;
 }
@@ -276,4 +299,12 @@
 
 .post__text_std-margin {
     margin-bottom: 12px !important;
+}
+
+.mobile {
+    display: none;
+}
+
+.terminy__color {
+    color: #fd054f;
 }
