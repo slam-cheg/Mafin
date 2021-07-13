@@ -86,8 +86,6 @@
     .post__text_exclamation {
         margin-bottom: 30px !important;
     }
-<<<<<<< Updated upstream
-=======
     .post__list-item {
         font-size: 14px;
     }
@@ -128,5 +126,4 @@
     .post__image_mini {
         width: 50%;
     }
->>>>>>> Stashed changes
 }
