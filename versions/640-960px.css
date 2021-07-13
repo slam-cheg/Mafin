@@ -76,4 +76,10 @@
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
+
+    .shape__image {
+        height: 35px;
+        margin-bottom: 30px;
+    }
+    
 }

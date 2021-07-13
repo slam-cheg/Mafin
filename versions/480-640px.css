@@ -20,11 +20,9 @@
         margin: 0 auto 12px auto;
         max-width: 400px;
     }
-
     .post__text:last-of-type {
         margin: 0 auto 30px auto;
     }
-
     .post__subtitle {
         font-size: 18px;
         line-height: 33px;
@@ -54,36 +52,66 @@
         max-width: 460px;
         margin: 0 auto 30px auto;
     }
-
     .post__card_columns {
         grid-template-columns: 110px auto;
     }
-
     .card__text {
         font-size: 14px;
     }
-
     .post__text_bold_card {
         font-size: 18px;
     }
-
     .post__image_desktop {
         display: none;
     }
-
     .post__image_mob {
         display: inherit;
     }
-
     .post__exclamation_wrapper {
         max-width: 400px;
     }
-
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
-
     .post__text_exclamation {
         margin-bottom: 30px !important;
     }
+<<<<<<< Updated upstream
+=======
+    .post__list-item {
+        font-size: 14px;
+    }
+    .shape__image {
+        height: 60px;
+        margin-bottom: 0;
+        margin: 0 auto 30px auto;
+    }
+    .post__card_two-columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .post__card_column {
+        border-right: none;
+        padding-right: 0;
+    }
+    .card__text_border_640 {
+        border-bottom: 1px solid #d7dae0;
+        padding-bottom: 15px;
+    }
+
+    .post__card_table {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 30px;
+    }
+
+    .card__text_zero {
+        margin: 0;
+    }
+    
+    .card__text_zero:last-of-type {
+        margin: 0 !important;
+    }
+>>>>>>> Stashed changes
 }
