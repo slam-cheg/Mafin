@@ -54,6 +54,11 @@
         margin: 0 auto 30px auto;
         padding: 30px;
     }
+    
+    .post__paragraph_columns {
+        max-width: 560px !important;
+        margin-bottom: 30px;
+    }
     .card__text {
         font-size: 14px;
     }

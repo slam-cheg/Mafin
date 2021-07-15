@@ -34,6 +34,10 @@
     .post__paragraph {
         max-width: 460px;
     }
+    .post__paragraph_columns {
+        max-width: 400px !important;
+        margin-bottom: 30px;
+    }
     .post__image_column {
         margin: 0 auto 0 auto;
     }

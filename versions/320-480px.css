@@ -47,6 +47,16 @@
     .post__paragraph {
         max-width: 100%;
     }
+    .post__paragraph_columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 30px 20px 30px;
+        max-width: 100% !important;
+        gap: 20px;
+    }
+    .post__list_card {
+        margin: 0 10px !important;
+    }
     .post__list-item {
         font-size: 14px;
     }
@@ -60,7 +70,7 @@
 
     .post__image_column {
         margin: 0 auto;
-        max-width: 120px !important;
+        max-width: 100%;
     }
 
     .post__grid {
@@ -91,7 +101,7 @@
 
     .card__text:last-of-type {
         font-size: 14px;
-        margin: 0 10px 0 10px;
+        margin: 0;
     }
 
     .post__text_bold_card {
