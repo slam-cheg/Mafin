@@ -120,7 +120,7 @@
 
     .post__table {
         grid-template-columns: repeat(2, 1fr);
-        padding: 20px;
+        padding: 0 0 20px 0;
     }
 
     .table__text {

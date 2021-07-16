@@ -63,7 +63,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3633-3134-4630-a132-363533303333/1520_470_surveyor.jpg);
+    background-image: url(https://static.tildacdn.com/tild6134-6631-4636-b966-656231616464/__1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -262,8 +262,9 @@
 
 .post__table {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 0 20px 0;
 }
 
 .table__text {
