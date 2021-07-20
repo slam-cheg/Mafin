@@ -63,10 +63,10 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3036-3739-4831-b334-316639653162/-.jpg);
+    background-image: url(https://static.tildacdn.com/tild3239-6237-4731-b135-653234306637/--1520-470.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     border-radius: 15px;
 }
 
@@ -77,7 +77,7 @@
     border-radius: 15px;
     margin: 0 auto 40px auto;
 }
-
+/*
 .shape__image {
     width: 100%;
     height: 230px;
@@ -88,13 +88,13 @@
 }
 
 .shape__image_left {
-    background-image: url(https://static.tildacdn.com/tild3033-3033-4431-b833-303235323764/_0.jpg);
+    background-image: url();
 }
 
 .shape__image_right {
-    background-image: url(https://static.tildacdn.com/tild3232-3730-4032-a531-373162353231/_.jpg);
+    background-image: url();
 }
-
+*/
 .post__paragraph_image {
     margin-bottom: 40px !important;
 }
@@ -251,7 +251,7 @@
 }
 
 .card__text:last-of-type {
-    margin: 0 auto 12px auto;
+    margin: 0 auto;
 }
 
 .post__image_column {
