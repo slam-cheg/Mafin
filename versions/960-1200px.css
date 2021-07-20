@@ -42,7 +42,18 @@
         max-width: 780px;
     }
 
+<<<<<<< Updated upstream
+=======
+    .card__text:last-of-type {
+        margin: 12px 0;
+    }
+
+>>>>>>> Stashed changes
     .post__exclamation_wrapper {
         max-width: 720px;
+    }
+
+    .post__exclamation_wrapper:last-of-type {
+        margin-bottom: 28px;
     }
 }

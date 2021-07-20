@@ -13,6 +13,7 @@
     .post__background {
         height: 235px;
         margin-bottom: 30px;
+        background-position: center;
     }
     .post__image {
         width: 100%;
@@ -74,8 +75,17 @@
     .post__image_mob {
         display: none;
     }
+
+    .post__text_exclamation{
+        margin-bottom: 12px !important;
+    }
+
     .post__exclamation_wrapper {
         max-width: 560px;
+    }
+
+    .post__exclamation_wrapper:last-of-type {
+        margin-bottom: 18px;
     }
 
     .post__paragraph_image {

@@ -42,7 +42,7 @@
     }
     .post__list {
         max-width: 100%;
-        margin: 0 30px 20px 30px !important;
+        margin: 0 10px 20px 10px !important;
     }
     .post__paragraph {
         max-width: 100%;
@@ -101,7 +101,11 @@
 
     .card__text:last-of-type {
         font-size: 14px;
+<<<<<<< Updated upstream
         margin: 0 10px;
+=======
+        margin: 0 10px 12px 10px;
+>>>>>>> Stashed changes
     }
 
     .post__text_bold_card {
@@ -129,8 +133,13 @@
     }
 
     .post__table {
+<<<<<<< Updated upstream
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
+=======
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 0 20px 0;
+>>>>>>> Stashed changes
     }
 
     .table__text {
@@ -164,6 +173,10 @@
         margin-right: 30px;
     }
 
+    .post__exclamation_wrapper:last-of-type {
+        margin-bottom: 8px;
+    }
+
     .post__text_exclamation {
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -172,6 +185,10 @@
 
     .post__paragraph_image {
         margin-bottom: 20px !important;
+    }
+
+    .post__background {
+        background-position: center;
     }
 
 }

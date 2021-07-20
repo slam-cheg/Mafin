@@ -44,6 +44,9 @@
     .post__list {
         max-width: 400px;
     }
+    .post__list-item {
+        font-size: 14px;
+    }
     /* Изменяемые стили */
     .post__image_mob {
         display: inherit;
@@ -83,11 +86,26 @@
         max-width: 400px;
     }
 
+    .post__exclamation_wrapper:last-of-type {
+        margin-bottom: 18px;
+    }
+
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
 
-    .post__text_exclamation {
-        margin-bottom: 30px !important;
+    .post__text_exclamation{
+        margin-bottom: 12px !important;
     }
+<<<<<<< Updated upstream
+=======
+
+    .post__table {
+        padding: 0 0 20px 0;
+    }
+
+    .post__background {
+        background-position: center;
+    }
+>>>>>>> Stashed changes
 }
