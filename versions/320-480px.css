@@ -101,11 +101,7 @@
 
     .card__text:last-of-type {
         font-size: 14px;
-<<<<<<< Updated upstream
-        margin: 0 10px;
-=======
         margin: 0 10px 12px 10px;
->>>>>>> Stashed changes
     }
 
     .post__text_bold_card {
@@ -133,13 +129,8 @@
     }
 
     .post__table {
-<<<<<<< Updated upstream
-        grid-template-columns: repeat(2, 1fr);
-        padding: 20px;
-=======
         grid-template-columns: repeat(1, 1fr);
         padding: 0 0 20px 0;
->>>>>>> Stashed changes
     }
 
     .table__text {
