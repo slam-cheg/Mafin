@@ -16,7 +16,7 @@
     }
 
     .shape__image {
-        height: 110px;
+        height: 120px;
     }
 
     .post__text {
@@ -69,7 +69,6 @@
 
     .post__card_columns {
         grid-template-columns: 1fr;
-        margin-bottom: 0;
     }
 
     .post__card_columns:last-of-type {

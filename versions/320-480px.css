@@ -92,7 +92,6 @@
         grid-template-columns: auto;
         column-gap: 0;
         row-gap: 20px;
-        margin-bottom: 0;
     }
 
     .post__card_columns:last-of-type {
