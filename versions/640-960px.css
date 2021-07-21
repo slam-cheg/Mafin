@@ -21,7 +21,7 @@
         margin: 0 auto 30px auto;
     }
     .post__image_column {
-        margin: 0 auto 0 auto;
+        margin: 0 auto 12px auto;
     }
     .post__text {
         font-size: 14px;
@@ -29,8 +29,8 @@
         margin: 0 auto 12px auto;
         max-width: 560px;
     }
-    .post__text:last-of-type {
-        margin: 0 auto 30px auto;
+    .card__text:last-of-type {
+        margin: 0 auto 12px auto;
     }
     .post__subtitle {
         font-size: 18px;

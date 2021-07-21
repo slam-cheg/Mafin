@@ -10,7 +10,7 @@
         max-width: 780px;
     }
     .post__image_column {
-        margin: 0 auto 0 auto;
+        margin: 0 auto 12px auto;
     }
     .post__text {
         max-width: 720px;
@@ -43,7 +43,7 @@
     }
 
     .card__text:last-of-type {
-        margin: 12px 0;
+        margin: 0 auto 12px auto;
     }
 
     .post__exclamation_wrapper {

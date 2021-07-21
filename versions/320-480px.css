@@ -69,7 +69,7 @@
     }
 
     .post__image_column {
-        margin: 0 auto;
+        margin: 0 auto 12px auto;
         max-width: 100%;
     }
 
@@ -101,6 +101,10 @@
     .card__text {
         font-size: 14px;
         margin: 0 10px 16px 10px;
+    }
+
+    .card__text_custom-margin {
+        margin-bottom: 20px !important;
     }
 
     .card__text:last-of-type {
