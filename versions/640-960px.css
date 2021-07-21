@@ -30,7 +30,7 @@
         max-width: 560px;
     }
     .card__text:last-of-type {
-        margin: 0 auto 12px auto;
+        margin: 0 auto 30px auto;
     }
     .post__subtitle {
         font-size: 18px;

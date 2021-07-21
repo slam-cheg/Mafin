@@ -72,7 +72,7 @@
         font-size: 14px;
     }
     .card__text:last-of-type {
-        margin: 0 auto 12px auto;
+        margin: 0 auto 30px auto;
     }
     .card__text_container {
         max-width: 400px;
