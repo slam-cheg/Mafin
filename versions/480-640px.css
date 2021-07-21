@@ -63,11 +63,24 @@
     }
 
     .post__card_columns {
-        grid-template-columns: 110px auto;
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+
+    .post__card_columns:last-of-type {
+        margin-bottom: 0;
     }
 
     .card__text {
         font-size: 14px;
+    }
+
+    .card__text:last-of-type {
+        margin: 0 10px 12px 10px;
+    }
+
+    .card__text_container {
+        max-width: 400px;
     }
 
     .post__text_bold_card {

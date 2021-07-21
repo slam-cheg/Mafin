@@ -70,7 +70,7 @@
 
     .post__image_column {
         margin: 0 auto;
-        max-width: 200px;
+        max-width: 100%;
     }
 
     .post__grid {
@@ -92,6 +92,11 @@
         grid-template-columns: auto;
         column-gap: 0;
         row-gap: 20px;
+        margin-bottom: 0;
+    }
+
+    .post__card_columns:last-of-type {
+        margin-bottom: 0;
     }
 
     .card__text {
