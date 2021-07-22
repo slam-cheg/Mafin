@@ -74,6 +74,9 @@
     .card__text:last-of-type {
         margin: 0 auto 30px auto;
     }
+    .card__title {
+        font-size: 16px;
+    }
     .card__text_container {
         max-width: 400px;
     }

@@ -103,6 +103,10 @@
         margin: 0 10px 16px 10px;
     }
 
+    .card__title {
+        font-size: 16px;
+    }
+
     .card__text_custom-margin {
         margin-bottom: 20px !important;
     }
