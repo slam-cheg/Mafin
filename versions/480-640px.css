@@ -15,7 +15,9 @@
         margin: 0 auto 30px auto;
     }
     .shape__image {
-        height: 120px;
+        margin: auto;
+        height: 140px;
+        width: 145px;
     }
     .post__text {
         font-size: 14px;
@@ -72,7 +74,7 @@
         font-size: 14px;
     }
     .card__text:last-of-type {
-        margin: 0 auto 30px auto;
+        margin: 0;
     }
     .card__title {
         font-size: 16px;
@@ -97,9 +99,6 @@
     }
     .post__paragraph_image {
         margin-bottom: 30px !important;
-    }
-    .post__text_exclamation {
-        margin-bottom: 12px !important;
     }
     .post__table {
         padding: 0 0 20px 0;
