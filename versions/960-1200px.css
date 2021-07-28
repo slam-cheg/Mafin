@@ -12,6 +12,9 @@
     .post__image_column {
         margin: 0 auto 12px auto;
     }
+    .post__image_mini {
+        max-width: 580px;
+    }
     .post__text {
         max-width: 720px;
         font-family: 'Montserrat', Arial, sans-serif;
