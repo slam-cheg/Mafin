@@ -43,6 +43,7 @@
     }
     .post__image_column {
         margin: 0 auto 12px auto;
+        width: 50%;
     }
     .post__list {
         max-width: 400px;
