@@ -121,8 +121,8 @@
         margin-bottom: 0;
     }
     .card__title {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
+        margin-left:0;
+        margin-right:0;
     }
     .post__table {
         grid-template-columns: repeat(1, 1fr);
@@ -152,6 +152,10 @@
         margin: auto;
         height: 140px;
         width: 145px;
+    }
+    .post__exclamation {
+        margin-right: 12px;
+        min-width: 25px;
     }
     .post__exclamation_wrapper {
         max-width: 100%;

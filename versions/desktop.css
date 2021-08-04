@@ -63,7 +63,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3531-3830-4137-b432-366138393662/__1520_470.jpg);
+    background-image: url(https://static.tildacdn.com/tild6237-3962-4736-b535-333565303933/---1520-470.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -184,14 +184,15 @@
 }
 
 .post__exclamation {
-    width: 135px;
+    color: #fff;
+    font-size: 1.2em;
+    width: 25px;
+    background-color: #009cf3;
+    text-align: center;
+    line-height: 1.2;
+    border-radius: 50%;
     height: 25px;
     margin-right: 16px;
-    background-image: url(https://static.tildacdn.com/tild3735-3837-4236-b636-633939656134/error-24px_1.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-clip: content-box;
-    background-size: contain;
 }
 
 .post__exclamation_wrapper {
@@ -339,7 +340,7 @@
 
 .flexbox {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .text__image {
@@ -347,8 +348,8 @@
     margin-right: 10px;
 }
 
-.gajdy__color{
-    color: rgb(255, 122, 0);;
+.razbory__color{
+    color: #009cf3;
 }
 
 .zero-margin {
