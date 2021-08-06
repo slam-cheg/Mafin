@@ -71,7 +71,7 @@
         font-size: 18px;
     }
     .post__quotes {
-        justify-content: center;
+        justify-content: flex-start;
     }
     .post__image_desktop {
         display: inherit;
@@ -88,4 +88,5 @@
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
+
 }
