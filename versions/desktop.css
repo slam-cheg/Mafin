@@ -63,7 +63,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3531-3830-4137-b432-366138393662/__1520_470.jpg);
+    background-image: url(https://static.tildacdn.com/tild6331-3536-4664-a565-326339306164/___1520_470_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -225,7 +225,7 @@
 
 .post__card_columns {
     display: grid;
-    grid-template-columns: 153px auto;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 /*
@@ -334,7 +334,7 @@
 }
 
 .post__image_mini {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .flexbox {
@@ -347,8 +347,8 @@
     margin-right: 10px;
 }
 
-.gajdy__color{
-    color: rgb(255, 122, 0);;
+.razbory__color{
+    color: #009CF3;;
 }
 
 .zero-margin {
@@ -359,3 +359,11 @@
     font-size: 14px;
     text-align: center;
 }
+
+.card__text_mini {
+    font-size: 14px !important;
+}
+
+::marker {
+    color: #009CF3;
+    }
