@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font-manrope.css);
 @import url(../vendor/fonts/font-montserrat.css);
+@import '../vendor/fonts/font-coveat.css';
 @import url(font-styles.css);
 
 @import url(../versions/desktop.css);

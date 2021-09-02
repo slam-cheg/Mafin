@@ -8,105 +8,144 @@
     margin: 0;
 }
 
-.post__heading {
-    font-family: 'Montserrat';
-    max-width: 700px;
-    margin: 165px auto 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.heading__ico {
-    padding-right: 10px;
-    width: 20px;
-}
-
-.heading__link {
-    font-size: 12px;
-    font-weight: 600;
-    transition: .2s;
-    color: #ff0550 !important;
-}
-
-.heading__link:hover {
-    opacity: .6;
-    transition: .2s;
-}
-
-.heading__date {
-    font-size: 12px;
-    font-weight: 400;
-    color: #7d7d7d;
-}
-
-.post__link {
-    color: #ff0550 !important;
-    transition: .2s;
-}
-
-.post__link:hover {
-    opacity: .6;
-    transition: .2s;
-}
-
-.post__title {
-    font-family: Manrope;
-    font-weight: bold;
-    font-size: 33px;
-    line-height: 1.4;
-    margin: 8px auto 30px auto;
-    max-width: 700px;
-}
-
-.post__background {
-    position: relative;
-    max-width: 100%;
-    height: 235px;
-    margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3531-3830-4137-b432-366138393662/__1520_470.jpg);
+.banner {
+    background-image: url(https://static.tildacdn.com/tild3166-3866-4461-b730-393039393335/-.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
-    border-radius: 15px;
+    background-clip: border-box;
+    min-height: 75vh;
+    margin-top: 120px;
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
 }
 
-.post__image {
-    display: inherit;
-    width: 100%;
-    max-width: 760px;
-    border-radius: 15px;
-    margin: 0 auto 40px auto;
+.banner__title {
+    color: #303030;
+    font-size: 50px;
+    font-family: "Manrope", Arial, sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 840px;
 }
 
-.shape__image {
-    width: 100%;
-    height: 145px;
-    background-repeat: no-repeat;
+.mafin__color {
+    color: #ff0550;
+}
+
+.card {
+    width: 960px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 auto -100px auto;
+    padding: 68px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card_min {
+    padding: 30px;
+    max-width: 826px;
+    margin: 0 83% 40px 17%;
+    background-image: url('https://static.tildacdn.com/tild6639-3232-4961-b764-626265376466/_2.png');
     background-position: center;
     background-size: cover;
-    border-radius: 15px;
-}
-/*
-.shape__image_left {
-    background-image: url();
+    background-repeat: no-repeat    ;
 }
 
-
-.shape__image_right {
-    background-image: url();
+.card_thin {
+    padding: 30px;
+    margin: 0 83% 40px 17%;
 }
 
-.shape__image_center {
-    background-image: url();
+.banner__car {
+    height: 100px;
+    bottom: -28px;
+    left: 15px;
+    position: absolute;
 }
 
-.shape__image_top {
-    background-image: url();
+.matfey {
+    padding-top: 140px;
+    background-color: #f4f6f9;
+    padding-bottom: 40px;
 }
-*/
 
-.post__paragraph_image {
-    margin-bottom: 40px !important;
+.card__subtitle {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 0.6;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.post__list {
+    list-style: none;
+    columns: 2;
+    max-width: 620px;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.post__list-item {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.post__list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.post__list-item::before {
+    vertical-align: bottom;
+    content: "";
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    margin-right: 12px;
+}
+
+.bg-first::before {
+    background-image: url("https://static.tildacdn.com/tild3263-6137-4230-b534-653231313666/1.svg");
+}
+.bg-second::before {
+    background-image: url("https://static.tildacdn.com/tild6138-3261-4862-a238-623663396564/2.svg");
+}
+.bg-third::before {
+    background-image: url("https://static.tildacdn.com/tild6130-3132-4662-b634-643165643039/3.svg");
+}
+.bg-fourth::before {
+    background-image: url("https://static.tildacdn.com/tild6564-3564-4533-b061-376666653230/4.svg");
+}
+.bg-fifth::before {
+    background-image: url("https://static.tildacdn.com/tild3061-3935-4265-a332-623931353462/5.svg");
+}
+.bg-sixth::before {
+    background-image: url("https://static.tildacdn.com/tild3232-3466-4663-a166-373734633935/6.svg");
+}
+.bg-seventh::before {
+    background-image: url("https://static.tildacdn.com/tild6337-3635-4962-b162-373264373136/7.svg");
+}
+.bg-eighth::before {
+    background-image: url("https://static.tildacdn.com/tild3438-6462-4734-a364-326165623133/8.svg");
+}
+
+.post__paragraph {
+    max-width: 960px;
+    margin: auto;
+    position: relative;
 }
 
 .post__text {
@@ -115,12 +154,31 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 auto 12px auto;
-    max-width: 700px;
+    margin: 0 0 12px 30px;
+    max-width: 670px;
 }
 
 .post__text:last-of-type {
-    margin: 0 auto 40px auto;
+    margin: 0 0 0 30px;
+    padding-bottom: 40px;
+}
+
+.post__text_card:last-of-type {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.post__text_card {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.matfey__person {
+    max-width: 200px;
+    position: absolute;
+    top: -206px;
+    right: -148px;
 }
 
 .post__subtitle {
@@ -130,232 +188,5 @@
     font-size: 24px;
     line-height: 33px;
     max-width: 700px;
-    margin: 0 auto 16px auto;
-}
-
-.post__list {
-    max-width: 700px;
-    margin: 0 auto 40px auto !important;
-}
-
-.post__list_card {
-    max-width: 700px;
-    margin: 0 auto !important;
-    padding-left: 20px;
-}
-
-.post__list-item {
-    font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-}
-
-.post__list-item:last-of-type {
-    margin-bottom: 0;
-}
-
-.post__paragraph {
-    max-width: 760px;
-    margin: auto;
-    position: relative;
-}
-
-.post__tag {
-    width: 90px;
-    position: absolute;
-    text-align: center;
-    border-radius: 30px;
-    height: 20px;
-    line-height: 20px;
-    bottom: 30px;
-    left: 30px;
-    letter-spacing: .7px;
-    font-weight: bold;
-    font-family: 'Manrope';
-    color: #fff;
-    font-size: 12px;
-    transition: .3s;
-    transform: rotate(356deg);
-}
-
-.post__text_bold {
-    font-weight: 600 !important;
-}
-
-.post__exclamation {
-    width: 135px;
-    height: 25px;
-    margin-right: 16px;
-    background-image: url(https://static.tildacdn.com/tild3735-3837-4236-b636-633939656134/error-24px_1.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-clip: content-box;
-    background-size: contain;
-}
-
-.post__exclamation_wrapper {
-    display: flex;
-    margin: 0 auto;
-    max-width: 700px;
-}
-
-.post__exclamation_wrapper:last-of-type {
-    margin-bottom: 28px;
-}
-
-.post__paragraph_exclamation {
-    margin-bottom: 40px;
-}
-
-/* Изменяемые стили */
-
-.post__tag {
-    background-color: #ff0550;
-}
-
-.post__card {
-    max-width: 760px;
-    background-color: #eef1f6;
-    border-radius: 15px;
-    margin: 0 auto 40px auto;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.post__card_columns {
-    display: grid;
-    grid-template-columns: 153px auto;
-    gap: 30px;
-}
-/*
-.post__card_columns:last-of-type {
-    margin-bottom: 40px;
-}
-*/
-.card__title {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    margin: 0 0 20px 0;
-}
-
-.card__text {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 0 16px 0; 
-    max-width: 700px;
-}
-
-.card__text_custom-margin {
-    margin-bottom: 30px !important;
-}
-
-.card__text_container {
-    align-self: center;
-}
-
-.card__text:last-of-type {
-    margin: 0;
-}
-
-.post__image_column {
-    margin: 0 auto 12px auto;
-}
-
-.post__card {
-    max-width: 760px;
-    background-color: #eef1f6;
-    border-radius: 15px;
-    margin: 0 auto 40px auto;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.post__quotes {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-}
-
-.post__quotes:last-of-type {
-    margin-bottom: 0;
-}
-
-.post__quotes_rotated {
-    transform: rotateY(180deg);
-}
-
-.post__quote {
-    margin-right: 5px;
-    width: 20px;
-}
-
-.post__table {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-}
-
-.table__text {
-    margin-bottom: 0px;
-    font-size: 12px;
-}
-
-.post__image_desktop {
-    display: inherit;
-}
-
-.post__image_mob {
-    display: none;
-}
-
-.post__text_std-margin {
-    margin-bottom: 12px !important;
-}
-
-.post__title_zero {
-    font-family: 'Montserrat';
-    margin: 0 auto;
-    text-align: center;
-}
-
-.post__paragraph_columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 700px;
-    margin-bottom: 40px;
-    gap: 30px;
-}
-
-.post__image_mini {
-    max-width: 300px;
-}
-
-.flexbox {
-    display: flex;
-    align-items: center;
-}
-
-.text__image {
-    max-width: 1.2em;
-    margin-right: 10px;
-}
-
-.gajdy__color{
-    color: rgb(255, 122, 0);;
-}
-
-.zero-margin {
-    margin-bottom: 0 !important;
-}
-
-.post__image-title {
-    font-size: 14px;
-    text-align: center;
+    margin: 0 0 16px 30px;
 }
