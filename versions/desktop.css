@@ -343,8 +343,8 @@
 }
 
 .text__image {
-    max-width: 1.2em;
-    margin-right: 10px;
+    max-width: inherit;
+    margin-left: 30px !important;
 }
 
 .gajdy__color{
