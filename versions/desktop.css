@@ -8,8 +8,17 @@
     margin: 0;
 }
 
+.post__link {
+    color: #ff0550 !important;
+    transition: .2s;
+}
+.post__link:hover {
+    opacity: .6;
+    transition: .2s;
+}
+
 .banner {
-    background-image: url(https://static.tildacdn.com/tild3166-3866-4461-b730-393039393335/-.png);
+    background-image: url("https://static.tildacdn.com/tild3166-3866-4461-b730-393039393335/-.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,16 +58,16 @@
 .card_min {
     padding: 30px;
     max-width: 826px;
-    margin: 0 83% 40px 17%;
-    background-image: url('https://static.tildacdn.com/tild6639-3232-4961-b764-626265376466/_2.png');
+    margin: 0 0 40px 0;
+    background-image: url("https://static.tildacdn.com/tild6639-3232-4961-b764-626265376466/_2.png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat    ;
+    background-repeat: no-repeat;
 }
 
 .card_thin {
     padding: 30px;
-    margin: 0 83% 40px 17%;
+    margin: 0 0 40px 0;
 }
 
 .banner__car {
@@ -75,12 +84,11 @@
 }
 
 .card__subtitle {
-    text-align: center;
-    font-family: 'Caveat', cursive;
+    font-family: "Caveat", cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
-    line-height: 0.6;
+    line-height: 1;
     max-width: 100%;
     margin: 0 0 20px 0;
 }
@@ -88,13 +96,13 @@
 .post__list {
     list-style: none;
     columns: 2;
-    max-width: 620px;
-    margin: 0 auto;
+    max-width: 610px;
+    margin: 0;
     padding-left: 0;
 }
 
 .post__list-item {
-    font-family: 'Caveat', cursive;
+    font-family: "Caveat", cursive;
     font-size: 24px;
     line-height: 1;
     margin-bottom: 16px;
@@ -168,6 +176,10 @@
     margin: 0;
 }
 
+.post__text_full {
+    max-width: 100%;
+}
+
 .post__text_card {
     max-width: 100%;
     padding: 0;
@@ -188,5 +200,59 @@
     font-size: 24px;
     line-height: 33px;
     max-width: 700px;
-    margin: 0 0 16px 30px;
+    margin: 0 0 16px 0;
+    color: #303030;
+}
+
+.card-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__icon {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.card__icon_left-side {
+    background-image: url("https://static.tildacdn.com/tild3636-3832-4163-b538-366465633765/photo.png");
+    width: 26px;
+    height: 16px;
+    top: 13px;
+    left: 1px;
+    transform: rotate(35deg);
+    opacity: 0.7;
+}
+
+.card__icon_center {
+    background-image: url("https://static.tildacdn.com/tild3139-3930-4261-b965-343363323032/photo.png");
+    width: 67px;
+    height: 39px;
+    top: 102px;
+    left: 251px;
+    transform: rotate(-15deg);
+    opacity: 0.5;
+}
+
+.card__icon_right-top {
+    background-image: url("https://static.tildacdn.com/tild3338-6135-4133-a232-333238613839/photo.png");
+    width: 45px;
+    height: 65px;
+    top: 41px;
+    right: 122px;
+    transform: rotate(23deg);
+    opacity: 0.6;
+}
+
+.card__icon_right {
+    background-image: url("https://static.tildacdn.com/tild6130-6431-4431-b066-316235333365/photo.jpg");
+    width: 158px;
+    height: 92px;
+    bottom: -5px;
+    right: 0;
 }
