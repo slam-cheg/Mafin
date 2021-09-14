@@ -63,7 +63,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3531-3830-4137-b432-366138393662/__1520_470.jpg);
+    background-image: url(https://static.tildacdn.com/tild3961-3038-4631-b031-356631313231/__.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -343,8 +343,10 @@
 }
 
 .text__image {
-    max-width: 1.2em;
-    margin-right: 10px;
+    max-width: inherit;
+    margin-left: 30px !important;
+    font-size: 10px;
+    color: #82898F;
 }
 
 .gajdy__color{
