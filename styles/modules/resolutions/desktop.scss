@@ -1,0 +1,72 @@
+.home-screen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 100vh;
+}
+
+.home-screen__text {
+    max-width: 490px;
+    margin: 0 120px 0 120px;
+    padding-top: 29%;
+}
+
+.home-screen__content {
+    display: grid;
+    grid-template-rows: 50vh 50vh;
+}
+
+.home-screen__title {
+    font-size: 64px;
+    line-height: 1.2;
+    font-family: 'Manrope',Arial,sans-serif;
+    margin: 0 0 60px 0;
+}
+
+.home-screen__title_color {
+    color: rgb(255, 5, 80);
+}
+
+.home-screen__description {
+    font-family: 'Manrope',Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.home-screen__link {
+    position: absolute;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Manrope", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    left: 40px;
+    bottom: 40px;
+    text-decoration: underline;
+    max-width: 90px;
+}
+
+.home-screen__wrapper {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.home-screen__cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    transition: .3s;
+}
+
+.home-screen__wrapper:hover > .home-screen__cover {
+    opacity: .2;
+    transition: .3s;
+}
+
+.home-screen__image {
+    width: 100%;
+}
+
