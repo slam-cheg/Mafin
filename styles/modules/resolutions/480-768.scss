@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px) {
+    .home-screen__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    .home-screen__title {
+        max-width: 100%;
+        margin: 0 0 40px 0;
+    }
+
+    .home-screen__description {
+        width: 100%;
+    }
+
+    .home-screen__link {
+        left: 20px;
+        top: -30px;
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

@@ -8,8 +8,7 @@
 
 .home-screen__text {
   max-width: 490px;
-  margin: 0 120px 0 120px;
-  padding-top: 29%;
+  margin: auto;
 }
 
 .home-screen__content {
@@ -46,6 +45,7 @@
   bottom: 40px;
   text-decoration: underline;
   max-width: 90px;
+  margin: 0;
 }
 
 .home-screen__wrapper {
@@ -70,4 +70,92 @@
 
 .home-screen__image {
   width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+  .home-screen {
+    height: calc(100vh - 60px);
+    margin-bottom: -20px;
+  }
+
+  .home-screen__content {
+    grid-template-rows: 50% 50%;
+  }
+
+  .home-screen__description {
+    font-size: 18px;
+  }
+
+  .home-screen__title {
+    font-size: 40px;
+    margin: 0 0 40px 0;
+  }
+
+  .home-screen__text {
+    max-width: 330px;
+  }
+
+  .home-screen__image {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .home-screen__link {
+    color: #000;
+  }
+}
+@media screen and (max-width: 959px) {
+  .home-screen {
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .home-screen__text {
+    margin: auto 20px;
+    max-width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .home-screen__content {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: none;
+  }
+
+  .home-screen__description {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home-screen__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+  }
+
+  .home-screen__title {
+    max-width: 100%;
+    margin: 0 0 40px 0;
+  }
+
+  .home-screen__description {
+    width: 100%;
+  }
+
+  .home-screen__link {
+    left: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .home-screen__title {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+  }
+
+  .home-screen__description {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=index.css.map */

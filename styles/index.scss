@@ -1,4 +1,9 @@
 @import '../vendor/normalize.css';
 @import '../vendor/font-styles.css';
 @import './modules/mixins.scss';
+
 @import './modules/resolutions/desktop.scss';
+@import './modules/resolutions/960-1200.scss';
+@import './modules/resolutions/768-960.scss';
+@import './modules/resolutions/480-768.scss';
+@import './modules/resolutions/275-480.scss';

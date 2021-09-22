@@ -1,0 +1,31 @@
+@media screen and (max-width: 1199px) {
+    .home-screen {
+        height: calc(100vh - 60px);
+        margin-bottom: -20px;
+    }
+
+    .home-screen__content {
+        grid-template-rows: 50% 50%;
+    }
+
+    .home-screen__description {
+        font-size: 18px;
+    }
+
+    .home-screen__title {
+        font-size: 40px;
+        margin: 0 0 40px 0;
+    }
+    
+    .home-screen__text {
+        max-width: 330px;
+    }
+
+    .home-screen__image {
+        object-fit: cover;
+    }
+
+    .home-screen__link {
+        color: #000;
+    }
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 959px) {
+    .home-screen {
+        grid-template-columns: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .home-screen__text {
+        margin: auto 20px;
+        max-width: calc(100% - 40px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .home-screen__content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        height: 30%;
+        gap: 2px;
+    }
+
+    .home-screen__description {
+        width: 390px;
+    }
+}
