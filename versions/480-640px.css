@@ -100,7 +100,7 @@
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
-    .post__table {
-        padding: 0 0 20px 0;
+    .post__table-heading {
+        padding: 10px !important;
     }
 }
