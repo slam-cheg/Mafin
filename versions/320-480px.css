@@ -169,5 +169,12 @@
     .post__paragraph_image {
         margin-bottom: 20px !important;
     }
+    .post__video {
+        width: 100%;
+        height: 180px;
+        border-radius: 15px;
+        margin: 0 auto 20px auto;
+        border: none;
+    }
     
 }
