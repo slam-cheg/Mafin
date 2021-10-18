@@ -331,6 +331,7 @@
     font-size: 12px !important;
     align-items: center;
     justify-content: center;
+    word-break: break-word;
 }
 
 .post__table_header {
