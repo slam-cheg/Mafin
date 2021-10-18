@@ -321,6 +321,7 @@
 
 .post__table-cell:last-of-type {
     border-right: none;
+    justify-content: flex-start;
 }
 
 .table__text {
