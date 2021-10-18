@@ -127,7 +127,7 @@
 
     .post__table {
         display: grid;
-        grid-template-columns: 1.2fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 2.5fr;
         row-gap: 20px;
         border-bottom: 2px solid #eef1f6;
     }
