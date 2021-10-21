@@ -1,361 +1,306 @@
-/* --- Неизменные стили --- */
-
-.t050__title.t-title.t-title_xxl {
-    font-size: 18px !important;
-}
-
-.t-records ul {
-    margin: 0;
-}
-
-.post__heading {
-    font-family: 'Montserrat';
-    max-width: 700px;
-    margin: 165px auto 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.heading__ico {
-    padding-right: 10px;
-    width: 20px;
-}
-
-.heading__link {
-    font-size: 12px;
-    font-weight: 600;
-    transition: .2s;
-    color: #ff0550 !important;
-}
-
-.heading__link:hover {
-    opacity: .6;
-    transition: .2s;
-}
-
-.heading__date {
-    font-size: 12px;
-    font-weight: 400;
-    color: #7d7d7d;
-}
-
-.post__link {
-    color: #ff0550 !important;
-    transition: .2s;
-}
-
-.post__link:hover {
-    opacity: .6;
-    transition: .2s;
-}
-
-.post__title {
-    font-family: Manrope;
-    font-weight: bold;
-    font-size: 33px;
-    line-height: 1.4;
-    margin: 8px auto 30px auto;
-    max-width: 700px;
-}
-
-.post__background {
-    position: relative;
-    max-width: 100%;
-    height: 235px;
-    margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild6566-3564-4166-b832-356162326565/1520470-.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    border-radius: 15px;
-}
-
-.post__image {
-    display: inherit;
-    width: 100%;
-    max-width: 760px;
-    border-radius: 15px;
-    margin: 0 auto 40px auto;
-}
-
-.shape__image {
-    width: 100%;
-    height: 145px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-}
-/*
-.shape__image_left {
-    background-image: url();
-}
-
-
-.shape__image_right {
-    background-image: url();
-}
-
-.shape__image_center {
-    background-image: url();
-}
-
-.shape__image_top {
-    background-image: url();
-}
-*/
-
-.post__paragraph_image {
-    margin-bottom: 40px !important;
-}
-
-.post__text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto 12px auto;
-    max-width: 700px;
-}
-
-.post__text:last-of-type {
-    margin: 0 auto 40px auto;
-}
-
-.post__subtitle {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    max-width: 700px;
-    margin: 0 auto 16px auto;
-}
-
-.post__list {
-    max-width: 700px;
-    margin: 0 auto 40px auto !important;
-}
-
-.post__list_card {
-    max-width: 700px;
-    margin: 0 auto !important;
-    padding-left: 20px;
-}
-
-.post__list-item {
-    font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-}
-
-.post__list-item:last-of-type {
-    margin-bottom: 0;
-}
-
-.post__paragraph {
-    max-width: 760px;
-    margin: auto;
-    position: relative;
-}
-
-.post__tag {
-    width: 90px;
-    position: absolute;
-    text-align: center;
-    border-radius: 30px;
-    height: 20px;
-    line-height: 20px;
-    bottom: 30px;
-    left: 30px;
-    letter-spacing: .7px;
-    font-weight: bold;
-    font-family: 'Manrope';
-    color: #fff;
-    font-size: 12px;
-    transition: .3s;
-    transform: rotate(356deg);
-}
-
-.post__text_bold {
-    font-weight: 600 !important;
-}
-
-.post__exclamation {
-    width: 135px;
-    height: 25px;
-    margin-right: 16px;
-    background-image: url(https://static.tildacdn.com/tild3735-3837-4236-b636-633939656134/error-24px_1.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-clip: content-box;
-    background-size: contain;
-}
-
-.post__exclamation_wrapper {
-    display: flex;
-    margin: 0 auto;
-    max-width: 700px;
-}
-
-.post__exclamation_wrapper:last-of-type {
-    margin-bottom: 28px;
-}
-
-.post__paragraph_exclamation {
-    margin-bottom: 40px;
-}
-
-/* Изменяемые стили */
-
-.post__tag {
-    background-color: #ff0550;
-}
-
-.post__card {
-    max-width: 760px;
-    background-color: #eef1f6;
-    border-radius: 15px;
-    margin: 0 auto 40px auto;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.post__card_columns {
-    display: grid;
-    grid-template-columns: 153px auto;
-    gap: 30px;
-}
-/*
-.post__card_columns:last-of-type {
-    margin-bottom: 40px;
-}
-*/
-.card__title {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    margin: 0 0 20px 0;
-}
-
-.card__text {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 0 16px 0; 
-    max-width: 700px;
-}
-
-.card__text_custom-margin {
-    margin-bottom: 30px !important;
-}
-
-.card__text_container {
-    align-self: center;
-}
-
-.card__text:last-of-type {
-    margin: 0;
-}
-
-.post__image_column {
-    margin: 0 auto 12px auto;
-}
-
-.post__card {
-    max-width: 760px;
-    background-color: #eef1f6;
-    border-radius: 15px;
-    margin: 0 auto 40px auto;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.post__quotes {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-}
-
-.post__quotes:last-of-type {
-    margin-bottom: 0;
-}
-
-.post__quotes_rotated {
-    transform: rotateY(180deg);
-}
-
-.post__quote {
-    margin-right: 5px;
-    width: 20px;
-}
-
-.post__table {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-}
-
-.table__text {
-    margin-bottom: 0px;
-    font-size: 12px;
-}
-
-.post__image_desktop {
-    display: inherit;
-}
-
-.post__image_mob {
-    display: none;
-}
-
-.post__text_std-margin {
-    margin-bottom: 12px !important;
-}
-
-.post__title_zero {
-    font-family: 'Montserrat';
-    margin: 0 auto;
-    text-align: center;
-}
-
-.post__paragraph_columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 700px;
-    margin-bottom: 40px;
-    gap: 30px;
-}
-
-.post__image_mini {
-    max-width: 300px;
-}
-
-.flexbox {
-    display: flex;
-    align-items: center;
-}
-
-.text__image {
-    max-width: 1.2em;
-    margin-right: 10px;
-}
-
-.gajdy__color{
-    color: rgb(255, 122, 0);;
-}
-
-.zero-margin {
-    margin-bottom: 0 !important;
-}
-
-.post__image-title {
-    font-size: 14px;
-    text-align: center;
-}
+	
+	
+    /* --- Неизменные стили --- */
+    
+    .t050__title.t-title.t-title_xxl {
+        font-size: 18px !important;
+    }
+    
+    .t-records ul {
+        margin: 0;
+    }
+    
+    .post__heading {
+        font-family: 'Montserrat';
+        max-width: 700px;
+        margin: 80px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .heading__ico {
+        padding-right: 10px;
+        width: 20px;
+    }
+    
+    .heading__link {
+        font-size: 12px;
+        font-weight: 600;
+        transition: .2s;
+        color: #ff0550 !important;
+    }
+    
+    .heading__link:hover{
+        opacity: .6;
+        transition: .2s;
+    }
+    
+    .heading__date {
+        font-size: 12px;
+        font-weight: 400;
+        color: #7d7d7d;
+    }
+    
+    .post__link {
+        color: #ff0550 !important;
+        transition: .2s;
+    }
+    
+    .post__link:hover {
+        opacity: .6;
+        transition: .2s;
+    }
+    
+    .post__title {
+        font-family: Manrope;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 1.4;
+        margin: 8px auto 30px auto;
+        max-width: 700px;
+    }
+    
+    .post__background {
+        position: relative;
+        max-width: 100%;
+        height: 235px;
+        margin-bottom: 40px;
+        background-image: url(https://static.tildacdn.com/tild6439-3366-4231-b731-336465623363/1520470-----.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        border-radius: 15px;
+    }
+    
+    .post__image {
+        display: inherit;
+        width: 100%;
+        max-width: 760px;
+        border-radius: 15px;
+        margin: 0 auto 40px auto;
+    }
+    
+    .post__paragraph_image {
+        margin-bottom: 40px !important;
+    }
+    
+    .post__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto 12px auto;
+        max-width: 700px;
+    }
+    
+    .post__text:last-of-type {
+        margin: 0 auto 40px auto;
+    }
+    
+    .post__text_exclamation {
+        margin-bottom: 12px !important;
+    }
+    
+    .post__subtitle {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        max-width: 700px;
+        margin: 0 auto 16px auto;
+    }
+    
+    .post__list {
+        max-width: 700px;
+        margin: 0 auto 40px auto !important;
+    }
+    
+    .post__list_card {
+        max-width: 700px;
+        margin: 0 auto !important;
+        padding-left: 20px;
+    }
+    
+    .post__list-item {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .post__list-item:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    .post__paragraph {
+        max-width: 760px;
+        margin: auto;
+        position: relative;
+    }
+    
+    .post__tag {
+        width: 90px;
+        position: absolute;
+        text-align: center;
+        border-radius: 30px;
+        height: 20px;
+        line-height: 20px;
+        bottom: 30px;
+        left: 30px;
+        letter-spacing: .7px;
+        font-weight: bold;
+        font-family: 'Manrope';
+        color: #fff;
+        font-size: 12px;
+        transition: .3s;
+        transform: rotate(356deg);
+    }
+    
+    .post__text_bold {
+        font-weight: 600 !important;
+    }
+    
+    .post__exclamation {
+        width: 24px;
+    }
+    
+    .post__exclamation {
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+    }
+    
+    .post__exclamation_wrapper {
+        display: flex;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    
+    .post__paragraph_exclamation {
+        margin-bottom: 40px;
+    }
+    
+    /* Изменяемые стили */
+    
+    .post__tag {
+        background-color: #ff0550;
+    }
+    
+    .post__card {
+        max-width: 760px;
+        background-color: #eef1f6;
+        border-radius: 15px;
+        margin: 0 auto 40px auto;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    .post__card_columns {
+        display: grid;
+        grid-template-columns: 153px auto;
+        column-gap: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .post__card_columns:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    .card__title {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 0 20px 0;
+    }
+    
+    .card__title_center {
+        text-align: center;
+    }
+    
+    .card__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto 16px auto;
+        max-width: 700px;
+    }
+    
+    .card__text_center {
+        text-align: center;
+    }
+    
+    .card__text:last-of-type {
+        margin: 0 auto 0 auto;
+    }
+    
+    .post__image_column {
+        margin: 0 auto 0 auto;
+    }
+    
+    .post__card {
+        max-width: 760px;
+        background-color: #eef1f6;
+        border-radius: 15px;
+        margin: 0 auto 40px auto;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    .post__quotes {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .post__quotes:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    .post__quotes_rotated {
+        transform: rotateY(180deg);
+    }
+    
+    .post__quote {
+        margin-right: 5px;
+        width: 20px;
+    }
+    
+    .post__table {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+    
+    .table__text {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    .post__image_desktop {
+        display: inherit;
+    }
+    
+    .post__image_mob {
+        display: none;
+    }
+    
+    .post__text_std-margin {
+        margin-bottom: 12px !important;
+    }
+    
+    .video {
+        height: 427px;
+    }
+    
+    .text__image {
+        max-width: 1.2em;
+        margin-right: 10px;
+    }
+    
+    .card__text_arrow {
+        color: #ff0550;
+    }
