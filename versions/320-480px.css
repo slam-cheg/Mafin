@@ -124,20 +124,19 @@
         margin-left: 10px !important;
         margin-right: 10px !important;
     }
+
     .post__table {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 0 0 20px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        row-gap: 20px;
+        border-bottom: 2px solid #eef1f6;
     }
-    .table__text {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 10px;
-        margin-bottom: 0px;
+
+    .post__table-cell:first-of-type {
+        padding-left: 10px;
+        justify-content: flex-start;
     }
-    .table__text:last-of-type {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-    }
+
     .card__title_xs {
         font-size: 16px;
         margin-bottom: 10px;
@@ -169,5 +168,10 @@
     .post__paragraph_image {
         margin-bottom: 20px !important;
     }
-    
+    .text__image {
+        max-width: inherit;
+        margin-left: 30px !important;
+        font-size: 10px !important;
+        color: #82898f;
+    }
 }
