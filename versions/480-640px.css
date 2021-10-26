@@ -1,106 +1,110 @@
-@media screen and (min-width: 480px) and (max-width: 639px) {
-    /* --- Неизменные стили --- */
-    .post__heading {
-        max-width: 400px;
-        margin: 125px auto 0 auto;
-    }
-    .post__title {
-        font-size: 24px;
-        line-height: 1.2;
-        max-width: 400px;
-    }
-    .post__image {
-        width: 100%;
-        max-width: 460px;
-        margin: 0 auto 30px auto;
-    }
-    .shape__image {
-        margin: auto;
-        height: 140px;
-        width: 145px;
-    }
-    .post__text {
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 0 auto 12px auto;
-        max-width: 400px;
-    }
-    .post__text:last-of-type {
-        margin: 0 auto 30px auto;
-    }
-    .post__subtitle {
-        font-size: 18px;
-        line-height: 33px;
-        max-width: 400px;
-        margin: 0 auto 16px auto;
-    }
-    .post__paragraph {
-        max-width: 460px;
-    }
-    .post__paragraph_columns {
-        max-width: 400px !important;
-        margin-bottom: 30px;
-    }
-    .post__image_column {
-        margin: 0 auto 12px auto;
-    }
-    .post__list {
-        max-width: 400px;
-    }
-    .post__list-item {
-        font-size: 14px;
-    }
-    /* Изменяемые стили */
-    .post__image_mob {
-        display: inherit;
-    }
-    .post__image_desktop {
-        display: none;
-    }
-    .post__grid {
-        max-width: 460px;
-    }
-    .post__card {
-        max-width: 460px;
-        margin: 0 auto 30px auto;
-    }
-    .post__card_columns {
-        grid-template-columns: 1fr;
-    }
-    .post__card_columns:last-of-type {
-        margin-bottom: 0;
-    }
-    .card__text {
-        font-size: 14px;
-    }
-    .card__text:last-of-type {
-        margin: 0;
-    }
-    .card__title {
-        font-size: 16px;
-    }
-    .card__text_container {
-        max-width: 400px;
-    }
-    .post__text_bold_card {
-        font-size: 18px;
-    }
-    .post__image_desktop {
-        display: none;
-    }
-    .post__image_mob {
-        display: inherit;
-    }
-    .post__exclamation_wrapper {
-        max-width: 400px;
-    }
-    .post__exclamation_wrapper:last-of-type {
-        margin-bottom: 18px;
-    }
-    .post__paragraph_image {
-        margin-bottom: 30px !important;
-    }
-    .post__table {
-        padding: 0 0 20px 0;
-    }
+ /* --- Неизменные стили --- */
+ .post__heading {
+    max-width: 400px;
+    margin: 125px auto 0 auto;
+}
+.post__title {
+    font-size: 24px;
+    line-height: 1.2;
+    max-width: 400px;
+}
+.post__image {
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto 30px auto;
+}
+.shape__image {
+    margin: auto;
+    height: 140px;
+    width: 145px;
+}
+.post__text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 auto 12px auto;
+    max-width: 400px;
+}
+.post__text:last-of-type {
+    margin: 0 auto 30px auto;
+}
+.post__subtitle {
+    font-size: 18px;
+    line-height: 33px;
+    max-width: 400px;
+    margin: 0 auto 16px auto;
+}
+.post__paragraph {
+    max-width: 460px;
+}
+.post__paragraph_columns {
+    max-width: 400px !important;
+    margin-bottom: 30px;
+}
+.post__image_column {
+    margin: 0 auto 12px auto;
+}
+.post__list {
+    max-width: 400px;
+}
+.post__list-item {
+    font-size: 14px;
+}
+/* Изменяемые стили */
+.post__image_mob {
+    display: inherit;
+}
+.post__image_desktop {
+    display: none;
+}
+.post__grid {
+    max-width: 460px;
+}
+.post__card {
+    max-width: 460px;
+    margin: 0 auto 30px auto;
+}
+.post__card_columns {
+    grid-template-columns: 1fr;
+}
+.post__card_columns:last-of-type {
+    margin-bottom: 0;
+}
+.card__text {
+    font-size: 14px;
+}
+.card__text:last-of-type {
+    margin: 0;
+}
+.card__title {
+    font-size: 16px;
+}
+.card__text_container {
+    max-width: 400px;
+}
+.post__text_bold_card {
+    font-size: 18px;
+}
+.post__image_desktop {
+    display: none;
+}
+.post__image_mob {
+    display: inherit;
+}
+.post__exclamation_wrapper {
+    max-width: 400px;
+}
+.post__exclamation_wrapper:last-of-type {
+    margin-bottom: 18px;
+}
+.post__paragraph_image {
+    margin-bottom: 30px !important;
+}
+.post__table {
+    padding: 0;
+}
+.text__image {
+    max-width: inherit;
+    margin-left: 30px !important;
+    font-size: 10px !important;
+    color: #82898F;
 }
