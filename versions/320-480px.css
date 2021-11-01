@@ -169,5 +169,9 @@
     .post__paragraph_image {
         margin-bottom: 20px !important;
     }
+
+    .card__text_custom-margin {
+        margin-bottom: 20px !important;
+    }
     
 }
