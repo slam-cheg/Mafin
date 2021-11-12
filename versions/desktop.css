@@ -298,7 +298,8 @@
 }
 
 .post__table-heading {
-    line-height: 30px;
+    font-weight: 600;
+    line-height: 20px;
     color: #fff;
     background-color: #019DF2;
     border-right: 2px solid #eef1f6;
@@ -406,4 +407,8 @@ th.post__subtitle {
 
 ::marker {
     color: #009CF3;
+}
+
+.merge-cells {
+    grid-template-columns: 3fr 1fr;
 }
