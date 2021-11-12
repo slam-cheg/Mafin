@@ -9,9 +9,9 @@
 }
 
 .post__heading {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     max-width: 700px;
-    margin: 165px auto 0 auto;
+    margin: 80px auto 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -24,13 +24,13 @@
 .heading__link {
     font-size: 12px;
     font-weight: 600;
-    transition: .2s;
+    transition: 0.2s;
     color: #ff0550 !important;
 }
 
 .heading__link:hover {
-    opacity: .6;
-    transition: .2s;
+    opacity: 0.6;
+    transition: 0.2s;
 }
 
 .heading__date {
@@ -41,12 +41,12 @@
 
 .post__link {
     color: #ff0550 !important;
-    transition: .2s;
+    transition: 0.2s;
 }
 
 .post__link:hover {
-    opacity: .6;
-    transition: .2s;
+    opacity: 0.6;
+    transition: 0.2s;
 }
 
 .post__title {
@@ -63,7 +63,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3531-3830-4137-b432-366138393662/__1520_470.jpg);
+    background-image: url(https://static.tildacdn.com/tild3864-3066-4630-b732-383663386235/____.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -145,7 +145,7 @@
 }
 
 .post__list-item {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 16px;
@@ -159,24 +159,6 @@
     max-width: 760px;
     margin: auto;
     position: relative;
-}
-
-.post__tag {
-    width: 90px;
-    position: absolute;
-    text-align: center;
-    border-radius: 30px;
-    height: 20px;
-    line-height: 20px;
-    bottom: 30px;
-    left: 30px;
-    letter-spacing: .7px;
-    font-weight: bold;
-    font-family: 'Manrope';
-    color: #fff;
-    font-size: 12px;
-    transition: .3s;
-    transform: rotate(356deg);
 }
 
 .post__text_bold {
@@ -211,7 +193,7 @@
 /* Изменяемые стили */
 
 .post__tag {
-    background-color: #ff0550;
+    color: #FF7A00 !important;
 }
 
 .post__card {
@@ -243,12 +225,12 @@
 }
 
 .card__text {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 0 16px 0; 
+    margin: 0 0 16px 0;
     max-width: 700px;
 }
 
@@ -298,13 +280,68 @@
 
 .post__table {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
+    border-bottom: 2px solid #eef1f6;
+}
+
+.post__table:last-of-type {
+    border-bottom: none;
+}
+
+.post__table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.post__table-heading {
+    line-height: 30px;
+    color: #fff;
+    background-color: #019DF2;
+    border-right: 2px solid #eef1f6;
+    text-align: center;
+}
+
+.post__table-heading:last-of-type {
+    border-right: none;
+}
+
+.post__table-cell {
+    background-color: #fff;
+    border-right: 2px solid #eef1f6;
+}
+
+.post__table-cell:first-of-type {
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.post__table-cell:last-of-type {
+    border-right: none;
+    justify-content: center;
 }
 
 .table__text {
-    margin-bottom: 0px;
-    font-size: 12px;
+    display: flex;
+    text-align: left;
+    margin: 0 !important;
+    padding: 10px 10px;
+    font-size: 12px !important;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+}
+
+.post__table_header {
+    grid-template-columns: 1fr !important;
+}
+
+th.post__subtitle {
+    margin: 0 !important;
+    padding: 10px 0 !important;
 }
 
 .post__image_desktop {
@@ -320,7 +357,7 @@
 }
 
 .post__title_zero {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     margin: 0 auto;
     text-align: center;
 }
@@ -347,8 +384,8 @@
     margin-right: 10px;
 }
 
-.gajdy__color{
-    color: rgb(255, 122, 0);;
+.gajdy__color {
+    color: #009CF3;
 }
 
 .zero-margin {
@@ -358,4 +395,15 @@
 .post__image-title {
     font-size: 14px;
     text-align: center;
+}
+
+.text__image {
+        max-width: inherit;
+        margin-left: 30px !important;
+        font-size: 10px !important;
+        color: #82898F;
+}
+
+::marker {
+    color: #009CF3;
 }
