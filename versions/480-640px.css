@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) and (max-width: 639px) {
+@media screen and (max-width: 639px) {
     /* --- Неизменные стили --- */
     .post__heading {
         max-width: 400px;
@@ -100,7 +100,10 @@
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
-    .post__table {
-        padding: 0 0 20px 0;
+    .table__text {
+        align-items: flex-start;
+    }
+    .post__table-heading {
+        padding: 20px !important;
     }
 }

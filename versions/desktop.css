@@ -193,7 +193,7 @@
 /* Изменяемые стили */
 
 .post__tag {
-    color: #FF7A00 !important;
+    color: #ff7a00 !important;
 }
 
 .post__card {
@@ -300,9 +300,10 @@
 .post__table-heading {
     line-height: 30px;
     color: #fff;
-    background-color: #FF0550;
+    background-color: #ff0550;
     border-right: 2px solid #eef1f6;
     text-align: center;
+    align-items: center !important;
 }
 
 .post__table-heading:last-of-type {
@@ -330,7 +331,7 @@
     margin: 0 !important;
     padding: 10px 10px;
     font-size: 12px !important;
-    align-items: center;
+    align-items: flex-start;
     word-break: break-word;
     flex-direction: column;
 }
@@ -385,7 +386,7 @@ th.post__subtitle {
 }
 
 .gajdy__color {
-    color: #009CF3;
+    color: #009cf3;
 }
 
 .zero-margin {
@@ -398,16 +399,17 @@ th.post__subtitle {
 }
 
 .text__image {
-        max-width: inherit;
-        margin-left: 30px !important;
-        font-size: 10px !important;
-        color: #82898F;
+    max-width: inherit;
+    margin-left: 30px !important;
+    font-size: 10px !important;
+    color: #82898f;
 }
 
 ::marker {
-    color: #009CF3;
+    color: #009cf3;
 }
 
 .text__align-left {
-    margin-left: 0!important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
