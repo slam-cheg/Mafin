@@ -9,7 +9,7 @@
 }
 
 .post__heading {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     max-width: 700px;
     margin: 165px auto 0 auto;
     display: flex;
@@ -24,13 +24,13 @@
 .heading__link {
     font-size: 12px;
     font-weight: 600;
-    transition: .2s;
+    transition: 0.2s;
     color: #ff0550 !important;
 }
 
 .heading__link:hover {
-    opacity: .6;
-    transition: .2s;
+    opacity: 0.6;
+    transition: 0.2s;
 }
 
 .heading__date {
@@ -41,12 +41,12 @@
 
 .post__link {
     color: #ff0550 !important;
-    transition: .2s;
+    transition: 0.2s;
 }
 
 .post__link:hover {
-    opacity: .6;
-    transition: .2s;
+    opacity: 0.6;
+    transition: 0.2s;
 }
 
 .post__title {
@@ -145,7 +145,7 @@
 }
 
 .post__list-item {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 16px;
@@ -170,12 +170,12 @@
     line-height: 20px;
     bottom: 30px;
     left: 30px;
-    letter-spacing: .7px;
+    letter-spacing: 0.7px;
     font-weight: bold;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     color: #fff;
     font-size: 12px;
-    transition: .3s;
+    transition: 0.3s;
     transform: rotate(356deg);
 }
 
@@ -243,12 +243,12 @@
 }
 
 .card__text {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 0 16px 0; 
+    margin: 0 0 16px 0;
     max-width: 700px;
 }
 
@@ -320,7 +320,7 @@
 }
 
 .post__title_zero {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     margin: 0 auto;
     text-align: center;
 }
@@ -347,8 +347,8 @@
     margin-right: 10px;
 }
 
-.gajdy__color{
-    color: rgb(255, 122, 0);;
+.gajdy__color {
+    color: rgb(255, 122, 0);
 }
 
 .zero-margin {
@@ -357,5 +357,8 @@
 
 .post__image-title {
     font-size: 14px;
-    text-align: center;
+    text-align: right;
+    margin-bottom: 40px !important;
 }
+
+

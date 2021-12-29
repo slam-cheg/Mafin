@@ -88,5 +88,8 @@
     .post__paragraph_image {
         margin-bottom: 30px !important;
     }
+    .post__image-title {
+        margin-bottom: 30px !important;
+    }
 
 }

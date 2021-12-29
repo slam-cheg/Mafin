@@ -103,4 +103,7 @@
     .post__table {
         padding: 0 0 20px 0;
     }
+    .post__image-title {
+        margin-bottom: 30px !important;
+    }
 }

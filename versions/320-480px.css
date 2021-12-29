@@ -169,5 +169,7 @@
     .post__paragraph_image {
         margin-bottom: 20px !important;
     }
-    
+    .post__image-title {
+        margin-bottom: 20px !important;
+    }
 }
