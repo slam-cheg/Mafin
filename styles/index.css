@@ -11,7 +11,7 @@
 }
 
 .post__heading {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   max-width: 700px;
   margin: 165px auto 0 auto;
   display: flex;
@@ -52,7 +52,7 @@
 }
 
 .post__title {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: bold;
   font-size: 33px;
   line-height: 1.4;
@@ -65,7 +65,7 @@
   max-width: 100%;
   height: 235px;
   margin-bottom: 40px;
-  background-image: url(https://static.tildacdn.com/tild3531-3830-4137-b432-366138393662/__1520_470.jpg);
+  background-image: url(https://static.tildacdn.com/tild3535-6239-4162-a335-376163666563/______2022_.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -112,7 +112,7 @@
 }
 
 .post__text {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -126,7 +126,7 @@
 }
 
 .post__subtitle {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -147,7 +147,7 @@
 }
 
 .post__list-item {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -174,7 +174,7 @@
   left: 30px;
   letter-spacing: 0.7px;
   font-weight: bold;
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   color: #fff;
   font-size: 12px;
   transition: 0.3s;
@@ -236,7 +236,7 @@
 }
 */
 .card__title {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -359,7 +359,7 @@
 
 .post__image-title {
   font-size: 14px;
-  text-align: center;
+  text-align: right;
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px) {
