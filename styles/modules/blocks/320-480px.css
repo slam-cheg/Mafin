@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (max-width: 479px) {
   /* --- Неизменные стили --- */
   .post__heading {
@@ -48,8 +49,10 @@
     max-width: 100%;
   }
   .post__paragraph_columns {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     margin: 0 30px 20px 30px;
     max-width: 100% !important;
     gap: 20px;
@@ -72,7 +75,8 @@
     max-width: 100%;
   }
   .post__grid {
-    grid-template-columns: auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
     margin: 0;
     row-gap: 20px;
   }
@@ -82,12 +86,16 @@
     border-radius: 15px;
     margin: 0 auto 20px auto;
     padding: 20px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .post__card_columns {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: auto;
-    column-gap: 0;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-column-gap: 0;
+            column-gap: 0;
     row-gap: 20px;
   }
   .post__card_columns:last-of-type {
@@ -125,7 +133,8 @@
     margin-right: 10px !important;
   }
   .post__table {
-    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
   .table__text {
     margin-left: 10px;
@@ -169,3 +178,4 @@
     margin-bottom: 20px !important;
   }
 }
+/*# sourceMappingURL=320-480px.css.map */
