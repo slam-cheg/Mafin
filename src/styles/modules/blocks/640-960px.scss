@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) and (max-width: 959px) {
+@media screen and (max-width: 959px) {
     /* --- Неизменные стили --- */
     .post__heading {
         max-width: 560px;
@@ -78,6 +78,9 @@
     }
     .post__image_mob {
         display: none;
+    }
+    .post__image-title {
+        margin-bottom: 30px;
     }
     .post__exclamation_wrapper {
         max-width: 560px;
