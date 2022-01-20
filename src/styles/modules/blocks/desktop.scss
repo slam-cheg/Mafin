@@ -63,7 +63,7 @@
     max-width: 100%;
     height: 235px;
     margin-bottom: 40px;
-    background-image: url(https://static.tildacdn.com/tild3961-6465-4162-b761-643930386431/_____2022_.jpg);
+    background-image: url(https://static.tildacdn.com/tild3231-6439-4335-a564-373932316661/______2022.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -298,7 +298,7 @@
 
 .post__table {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
     border-bottom: 2px solid #eef1f6;
 }
@@ -317,9 +317,13 @@
 
 .post__table-heading {
     color: #fff;
-    background-color: $terminy;
+    background-color: $razbory;
     border-right: 2px solid #eef1f6;
     text-align: center;
+
+    &:first-of-type {
+        padding-left: 20px;
+    }
 }
 
 .post__table-heading:last-of-type {
@@ -416,5 +420,5 @@ th.post__subtitle {
 }
 
 ::marker {
-    color: $gaidy;
+    color: $razbory;
 }
