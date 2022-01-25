@@ -145,24 +145,6 @@
   position: relative;
 }
 
-.post__tag {
-  width: 90px;
-  position: absolute;
-  text-align: center;
-  border-radius: 30px;
-  height: 20px;
-  line-height: 20px;
-  bottom: 30px;
-  left: 30px;
-  letter-spacing: 0.7px;
-  font-weight: bold;
-  font-family: "Manrope", sans-serif;
-  color: #fff;
-  font-size: 12px;
-  transition: 0.3s;
-  transform: rotate(356deg);
-}
-
 .post__text_bold {
   font-weight: 600 !important;
 }
@@ -182,10 +164,6 @@
 }
 
 /* Изменяемые стили */
-.post__tag {
-  background-color: #ff0550;
-}
-
 .post__card {
   max-width: 760px;
   background-color: #eef1f6;
@@ -271,7 +249,7 @@
 
 .post__table {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 20px;
   border-bottom: 2px solid #eef1f6;
 }
@@ -290,7 +268,7 @@
 
 .post__table-heading {
   color: #fff;
-  background-color: #019df2;
+  background-color: #ff0550;
   border-right: 2px solid #eef1f6;
   text-align: center;
 }
@@ -392,7 +370,7 @@ th.post__subtitle {
 }
 
 ::marker {
-  color: #019df2;
+  color: #ff0550;
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px) {
@@ -863,10 +841,6 @@ th.post__subtitle {
   .card__title {
     margin-left: 10px !important;
     margin-right: 10px !important;
-  }
-
-  .post__table {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .post__table-wrapper {

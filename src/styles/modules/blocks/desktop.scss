@@ -25,7 +25,7 @@
     font-size: 12px;
     font-weight: 600;
     transition: 0.2s;
-    color: #ff0550 !important;
+    color: $mafin !important;
 }
 
 .heading__link:hover {
@@ -40,7 +40,7 @@
 }
 
 .post__link {
-    color: #ff0550 !important;
+    color: $mafin !important;
     transition: 0.2s;
 }
 
@@ -143,24 +143,6 @@
     position: relative;
 }
 
-.post__tag {
-    width: 90px;
-    position: absolute;
-    text-align: center;
-    border-radius: 30px;
-    height: 20px;
-    line-height: 20px;
-    bottom: 30px;
-    left: 30px;
-    letter-spacing: 0.7px;
-    font-weight: bold;
-    font-family: "Manrope", sans-serif;
-    color: #fff;
-    font-size: 12px;
-    transition: 0.3s;
-    transform: rotate(356deg);
-}
-
 .post__text_bold {
     font-weight: 600 !important;
 }
@@ -181,13 +163,9 @@
 
 /* Изменяемые стили */
 
-.post__tag {
-    background-color: #ff0550;
-}
-
 .post__card {
     max-width: 760px;
-    background-color: #eef1f6;
+    background-color: $grey;
     border-radius: 15px;
     margin: 0 auto 40px auto;
     padding: 30px;
@@ -241,7 +219,7 @@
 
 .post__card {
     max-width: 760px;
-    background-color: #eef1f6;
+    background-color: $grey;
     border-radius: 15px;
     margin: 0 auto 40px auto;
     padding: 30px;
@@ -269,9 +247,9 @@
 
 .post__table {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
-    border-bottom: 2px solid #eef1f6;
+    border-bottom: 2px solid $grey;
 }
 
 .post__table:last-of-type {
@@ -288,8 +266,8 @@
 
 .post__table-heading {
     color: #fff;
-    background-color: $razbory;
-    border-right: 2px solid #eef1f6;
+    background-color: $terminy;
+    border-right: 2px solid $grey;
     text-align: center;
 
     &:first-of-type {
@@ -303,7 +281,7 @@
 
 .post__table-cell {
     background-color: #fff;
-    border-right: 2px solid #eef1f6;
+    border-right: 2px solid $grey;
 }
 
 .post__table-cell:first-of-type {
@@ -391,5 +369,5 @@ th.post__subtitle {
 }
 
 ::marker {
-    color: $razbory;
+    color: $terminy;
 }
