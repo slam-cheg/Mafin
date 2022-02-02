@@ -1,0 +1,9 @@
+.post__list_card {
+    max-width: 700px;
+    margin: 0 auto !important;
+    padding-left: 20px;
+
+    @media screen and (max-width: 479px) {
+        margin: 0 10px !important;
+    }
+}

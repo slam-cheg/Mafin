@@ -1,0 +1,11 @@
+.heading__link {
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.2s;
+    color: $mafin !important;
+
+    &:hover {
+        opacity: 0.6;
+        transition: 0.2s;
+    }
+}

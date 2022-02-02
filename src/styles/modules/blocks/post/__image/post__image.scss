@@ -1,0 +1,26 @@
+.post__image {
+    display: inherit;
+    width: 100%;
+    max-width: 760px;
+    border-radius: 15px;
+    margin: 0 auto 40px auto;
+
+    @media screen and (max-width: 1199px) {
+        max-width: 780px;
+    }
+
+    @media screen and (max-width: 959px) {
+        width: 100%;
+        max-width: 620px;
+        margin: 0 auto 30px auto;
+    }
+
+    @media screen and (max-width: 639px) {
+        width: 100%;
+        max-width: 460px;
+    }
+
+    @media screen and (max-width: 479px) {
+        margin: 0 auto 20px auto;
+    }
+}

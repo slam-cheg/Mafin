@@ -1,0 +1,10 @@
+.post__link {
+    color: $mafin !important;
+    font-weight: 600;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.6;
+        transition: 0.2s;
+    }
+}

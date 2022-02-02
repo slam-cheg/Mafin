@@ -1,0 +1,25 @@
+.heading {
+    font-family: "Montserrat", sans-serif;
+    max-width: 700px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1199px) {
+        max-width: 720px;
+    }
+
+    @media screen and (max-width: 959px) {
+        max-width: 560px;
+        margin: 125px auto 0 auto;
+    }
+
+    @media screen and (max-width: 639px) {
+        max-width: 400px;
+    }
+
+    @media screen and (max-width: 479px) {
+        max-width: 100%;
+        margin: 125px 30px 0 30px;
+    }
+}

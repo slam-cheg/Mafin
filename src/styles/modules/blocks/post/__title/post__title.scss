@@ -1,0 +1,27 @@
+.post__title {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 1.4;
+    margin: 8px auto 30px auto;
+    max-width: 700px;
+
+    @media screen and (max-width: 1199px) {
+        max-width: 720px;
+    }
+
+    @media screen and (max-width: 959px) {
+        font-size: 24px;
+        line-height: 1.2;
+        max-width: 560px;
+    }
+
+    @media screen and (max-width: 639px) {
+        max-width: 400px;
+    }
+
+    @media screen and (max-width: 479px) {
+        max-width: 100%;
+        margin: 8px 30px 20px 30px;
+    }
+}

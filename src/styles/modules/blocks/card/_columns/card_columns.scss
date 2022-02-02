@@ -1,0 +1,13 @@
+.card_columns {
+    display: grid;
+    grid-template-columns: 153px auto;
+    gap: 30px;
+
+    @media screen and (max-width: 639px) {
+        grid-template-columns: 1fr;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}

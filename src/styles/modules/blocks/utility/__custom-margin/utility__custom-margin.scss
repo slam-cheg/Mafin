@@ -1,0 +1,7 @@
+.utility__custom-margin {
+    margin-bottom: 30px !important;
+
+    @media screen and (max-width: 479px) {
+        margin-bottom: 20px !important;
+    }
+}
