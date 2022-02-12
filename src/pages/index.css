@@ -151,7 +151,8 @@ th.post__subtitle {
 }
 
 ::marker {
-  color: #ff0550;
+  color: #019df2;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1199px) {
@@ -505,7 +506,7 @@ th.post__subtitle {
   max-width: 100%;
   height: 235px;
   margin-bottom: 40px;
-  background-image: url(https://static.tildacdn.com/tild3236-3561-4739-a131-636637653265/1520470------2022-.jpg);
+  background-image: url(https://static.tildacdn.com/tild3837-3034-4333-b961-343964316336/1520470--.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
