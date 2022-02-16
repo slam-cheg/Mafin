@@ -27,7 +27,7 @@
 
 .post__table {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
     border-bottom: 2px solid $grey;
 }
@@ -46,7 +46,7 @@
 
 .post__table-heading {
     color: #fff;
-    background-color: $terminy;
+    background-color: $razbory;
     border-right: 2px solid $grey;
     text-align: center;
 
@@ -75,8 +75,7 @@
 }
 
 .table__text {
-    display: flex;
-    text-align: left;
+    text-align: center;
     margin: 0 !important;
     padding: 10px 10px;
     font-size: 12px !important;
