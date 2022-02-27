@@ -1,7 +1,7 @@
 .post__list {
     max-width: 700px;
     padding-left: 35px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto !important;
 
     @media screen and (max-width: 1199px) {
         padding-left: 15px;
@@ -19,7 +19,7 @@
     @media screen and (max-width: 479px) {
         max-width: 100%;
         padding-left: 36px;
-        margin: 0 10px 20px 10px;
+        margin: 0 10px 20px 10px !important;
     }
 
     ::marker {
