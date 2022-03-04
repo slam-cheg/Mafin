@@ -27,7 +27,7 @@
 
 .post__table {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 20px;
     border-bottom: 2px solid $grey;
 }
@@ -134,7 +134,7 @@ th.post__subtitle {
 }
 
 .custom__color {
-    color: $razbory;
+    color: $gajdy;
 }
 
 .zero-margin {
